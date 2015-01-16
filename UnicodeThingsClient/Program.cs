@@ -21,7 +21,9 @@ namespace UnicodeThingsClient
             Console.WriteLine("Length from UnicodeThings: {0}", len);
         }
 
-        [DllImport("UnicodeThings.dll")]
+        [DllImport("UnicodeThings.dll", 
+            ExactSpelling = true,
+            EntryPoint = "?utf8_strlen@unicode_things@@YAIPBD@Z")]
         public static extern uint utf8_strlen(string s);
     }
 }

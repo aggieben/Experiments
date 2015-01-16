@@ -10,5 +10,5 @@
 
 namespace unicode_things
 {
-	DLLEXPORT size_t utf8_strlen(const std::string &s);
+	DLLEXPORT size_t utf8_strlen(const char *);
 }
