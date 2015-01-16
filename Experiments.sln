@@ -8,6 +8,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnicodeThingsCLR", "UnicodeThingsCLR\UnicodeThingsCLR.vcxproj", "{80A2E142-232F-476E-8BF3-F37C79CBB2C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnicodeThingsClient", "UnicodeThingsClient\UnicodeThingsClient.csproj", "{D53D6428-017D-445B-84B5-11BF1188926D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{624298FB-3C01-4D35-A5FC-A17D9A183253} = {624298FB-3C01-4D35-A5FC-A17D9A183253}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
